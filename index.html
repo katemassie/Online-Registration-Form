@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Online Registration Form</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <link href='https://fonts.googleapis.com/css?family=Merriweather:700,300,300italic' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+  <header>
+    <h1>The Code Review</h1>
+  </header>
+
+  <div class="top">
+    <h2>Signup for our newsletter</h2>
+    <p>Get the latest news on how your code is doing right in your inbox</p>
+  </div>
+
+  <div class="wrapper">
+    <hr class="thick">
+    <hr>
+
+    <form action="central.html" method="post">
+      <fieldset>
+        <legend>Contact Information</legend>
+
+        <!-- - - - - - - - - - - - - - - - -->
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="user_name" placeholder="Required"><br>
+        
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="user_email" placeholder="Required"><br>
+        <!-- - - - - - - - - - - - - - - - -->
+
+        <!-- Code between above markers referenced https://css-tricks.com/almanac/selectors/p/placeholder/
+         for placeholder format.  Accessed 26 April 2016. -->
+
+         <label for "phone">Phone Number</label>
+         <input type="tel" id="phone" name="user_phone"><br>
+
+         <label for="address">Street Address</label>
+         <input type="text" id="address" name="user_address"><br>
+
+         <label for "city">City</label>
+         <input type="text" id="city" name="user_city"><br>
+
+
+
+        <!-- Code between markers below referenced http://codepen.io/ericrasch/pen/zjDBx for format of first option.
+        Accessed 26 April 2016. -->
+
+         <div class="selectstyle">
+           <label for "state" class="dropdown">State</label>
+           <select id="state" name="user_state">
+            <!-- - - - - - - - - - - - - - - - -->
+            <option>Choose State</option>
+            <!-- - - - - - - - - - - - - - - - -->
+            <option value="al">AL</option>
+            <option value="ak">AK</option>
+            <option value="az">AZ</option>
+            <option value="ar">AR</option>
+            <option value="ca">CA</option>
+            <option value="co">CO</option>
+            <option value="ct">CT</option>
+            <option value="de">DE</option>
+            <option value="dc">DC</option>
+            <option value="fl">FL</option>
+            <option value="ga">GA</option>
+            <option value="hi">HI</option>
+            <option value="id">ID</option>
+            <option value="il">IL</option>
+            <option value="in">IN</option>
+            <option value="ia">IA</option>
+            <option value="ks">KS</option>
+            <option value="ky">KY</option>
+            <option value="la">LA</option>
+            <option value="me">ME</option>
+            <option value="md">MD</option>
+            <option value="ma">MA</option>
+            <option value="mi">MI</option>
+            <option value="mn">MN</option>
+            <option value="ms">MS</option>
+            <option value="mo">MO</option>
+            <option value="mt">MT</option>
+            <option value="ne">NE</option>
+            <option value="nv">NV</option>
+            <option value="nh">NH</option>
+            <option value="nj">NJ</option>
+            <option value="nm">NM</option>
+            <option value="ny">NY</option>
+            <option value="nc">NC</option>
+            <option value="nd">ND</option>
+            <option value="oh">OH</option>
+            <option value="ok">OK</option>
+            <option value="or">OR</option>
+            <option value="pa">PA</option>
+            <option value="ri">RI</option>
+            <option value="sc">SC</option>
+            <option value="sd">SD</option>
+            <option value="tn">TN</option>
+            <option value="tx">TX</option>
+            <option value="ut">UT</option>
+            <option value="vt">VT</option>
+            <option value="va">VA</option>
+            <option value="wa">WA</option>
+            <option value="wv">WV</option>
+            <option value="wi">WI</option>
+            <option value="wy">WY</option>
+            </select>
+         </div>
+
+         <label for "zip" class="zip">Zip Code</label>
+         <input type="text" id="zip" name="user_zip" class="zipinput">
+
+      </fieldset>
+      
+      <hr>
+
+      <fieldset>
+        <legend>Newsletter</legend>
+
+        <label class="selections">Select the newsletters you would like to receive</label>
+
+        <input type="checkbox" id="html" name="newsletter" value="html"><label for="html" class="option"><span></span>HTML News</label><br>
+
+        <input type="checkbox" id="css" name="newsletter" value="css"><label for="css" class="option"><span></span>CSS News</label><br>
+
+        <input type="checkbox" id="javascript" name="newsletter" value="javascript"><label for="javascript" class="option jslabel"><span></span>Javascript News</label><br>
+
+
+        <label class="heading selections">Newsletter format</label>
+
+        <input type="radio" id="htmlformat" name="format" value="html"><label for="htmlformat" class="option"><span></span>HTML</label><br>
+
+        <input type="radio" id="plaintext" name="format" value="plain"><label for="plaintext" class="option"><span></span>Plain text</label><br>
+
+
+        <label for="comments" class="comments selections">Other topics you'd like to hear about</label>
+        <textarea name="comments" rows="5" cols="45" id="comments"></textarea>
+
+      </fieldset>
+
+      <button type="submit">Sign Up</button>
+    </form>
+  </div>
+
+  <footer>
+    <p>Copyright The Code Review</p>
+  </footer>
+
+</body>
+</html>

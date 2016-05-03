@@ -1,0 +1,452 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+
+/* --------- Mobile First ---------- */
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Merriweather', serif;
+  font-weight: 300;
+  font-size: 15px;
+  padding-bottom: 15px;
+  color: #2d3945;
+}
+
+header {
+  background-color: #2d3945;
+  padding: 25px;
+  text-align: center;
+}
+
+h1 {
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.top {
+  padding: 25px;
+  text-align: center;
+}
+
+.top p {
+  color: #bec2c5;
+}
+
+h2 {
+  padding-bottom: 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* * * * * * * * * * * * * * * * */
+hr {
+  height: 2px;
+  background: #2d3945;
+  color: #2d3945;
+  border: 0;
+  margin: 3px;
+}
+
+.thick {
+  height: 5px;
+}
+/* * * * * * * * * * * * * * * * */
+/* Code between the markers above from Stack Overflow.  Question 
+(http://stackoverflow.com/questions/4908525/styling-the-hr-element) on 5 Feb 11 from 
+Jelmar (http://stackoverflow.com/users/675593/jelmar), edited by dogbane (http://stackoverflow.com/users/7412/dogbane).  
+Relevant answer on 5 Feb 11 from Marwelln 
+(http://stackoverflow.com/users/397195/marwelln), edited 11 Jul 12 by Hugo (http://stackoverflow.com/users/107510/hugo).
+Licensed under Creative Commons Attribution-ShareAlike License, the latest version of which is available
+here: https://creativecommons.org/licenses/by-sa/4.0/.
+Accessed 25 April 2016.  Modified with relevant heights, color, and the addition of a margin. */
+
+
+legend {
+  font-weight: bold;
+  padding: 25px 0;
+  font-size: 20px;
+}
+
+label,
+input,
+select {
+  display: block;
+}
+
+
+/* * * * * * * * * * * * * * * * */
+::-webkit-input-placeholder {
+  text-align: right;
+  font-style: italic;
+  font-size: 14px;
+}
+
+:-moz-placeholder {
+  text-align: right;
+  font-style: italic;
+  font-size: 14px;
+}
+/* * * * * * * * * * * * * * * * */
+/* Code between the markers above adapted (with addition of font-style and font-size) from Stack Overflow
+Question http://stackoverflow.com/questions/6729837/text-align-right-only-for-placeholder asked by
+Me hdi (http://stackoverflow.com/users/848871/me-hdi) and edited by BoltClock (http://stackoverflow.com/users/106224/boltclock)
+both on 18 July 2011.  Answer from Hnatt (http://stackoverflow.com/users/553408/hnatt) on 18 July 2011.
+Also referenced https://css-tricks.com/almanac/selectors/p/placeholder/.
+All on 26 April 2016. */
+
+
+
+/* Code for padding between the markers below adapted from W3schools.com
+http://www.w3schools.com/css/css_form.asp
+Accessed April 26, 2016 */
+input {
+  margin-bottom: 25px;
+/* * * * * * * * * * * * * * * * */
+  padding: 15px;
+/* * * * * * * * * * * * * * * * */
+  background-color: #eff0f1;
+  border: 0;
+/* * * * * * * * * * * * * * * * */
+  border-radius: 5px;
+/* * * * * * * * * * * * * * * * */
+
+/* * * * * * * * * * * * * * * * */
+  width: 100%;
+/* * * * * * * * * * * * * * * * */
+}
+/* Border-radius code above from CSS-TRICKS
+https://css-tricks.com/almanac/properties/b/border-radius/
+Accessed April 26, 2016 */
+
+
+/*Code for width between the markers above was inspired by a web search 
+results page that prominently featured two Stack Overflow posts: 
+  1) http://stackoverflow.com/questions/18721722/input-in-div-container-wont-stretch; Question by Drahcir 
+  (http://stackoverflow.com/users/820750/drahcir) on 10 Sept 13 and answered by various people pointing to width.
+  2) http://stackoverflow.com/questions/9910790/how-to-stretch-input-field-to-full-width; Question by Robert Hume 
+  (http://stackoverflow.com/users/550738/robert-hume) on 28 Mar 12, edited by badcat 
+  (http://stackoverflow.com/users/195347/badcat) on 4 Jan 2013, and the answer by Khan 
+  (http://stackoverflow.com/users/212566/khan) on 28 Mar 12.
+Licensed under Creative Commons Attribution-ShareAlike License, the latest version of which is available
+here: https://creativecommons.org/licenses/by-sa/4.0/.
+*/
+
+.heading {
+  margin-top: 15px;
+}
+
+/* * * * * * * * * * * * * * * * */
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 0px;
+  width: 5%;
+  float: left;
+}
+/* * * * * * * * * * * * * * * * */
+/* Code between markers above styling the inputs for radio buttons and checkboxes adapted 
+from  MachForm https://www.machform.com/forums/topic/label-radio-button-on-same-line-and-radio-buttons-lined-up
+Question asked by cheryledwards, who also passes along the answer from Appnitro.
+Accessed 26 April 2016, 3 May 2016.
+*/
+
+
+.comments {
+  margin: 15px 0 10px 0;
+}
+
+
+textarea {
+  background-color: #eff0f1;
+  border: 0;
+/* * * * * * * * * * * * * * * * */
+  width: 100%;
+/* * * * * * * * * * * * * * * * */
+/* * * * * * * * * * * * * * * * */
+  border-radius: 3px;
+/* * * * * * * * * * * * * * * * */
+}
+
+/* Width code above inspired by Stack Overflow.  
+Question 11 May 15 http://stackoverflow.com/questions/30164301/css-width100-textarea-for-comment-responsive
+by innovation (http://stackoverflow.com/users/4082764/innovation).
+Accessed April 26, 2016.
+*/
+/* Border-radius code above from CSS-TRICKS
+https://css-tricks.com/almanac/properties/b/border-radius/
+Accessed April 26, 2016 */
+
+
+label {
+  padding-bottom: 10px;
+}
+
+/* * * * * * * * * * * * * * * * */
+.selectstyle select {
+  height: 50px;
+/* * * * * * * * * * * * * * * * */
+  border-radius: 5px;
+/* * * * * * * * * * * * * * * * */
+  background: transparent;
+  color: #bec2c5;
+  border: none;
+  padding: 15px;
+  -webkit-appearance: none;
+  width: 100%;
+  height: 50px;
+  overflow: hidden;
+  background: url(arrow.png) no-repeat right #eff0f1;
+}
+/* * * * * * * * * * * * * * * * */
+/* Code for styling select box above adapted from c.bavota at http://bavotasan.com/2011/style-select-box-using-only-css/
+Widths, heights, borders changed.  Padding, font-size, line-height omitted.
+Accessed 26 April 2016. 
+
+/* Border-radius code above from CSS-TRICKS
+https://css-tricks.com/almanac/properties/b/border-radius/
+Accessed April 26, 2016 */
+
+
+/* * * * * * * * * * * * * * * * */
+input:focus,
+select:focus,
+textarea:focus {
+  border: 2px solid #2d3945;
+  outline: none;
+}
+/* * * * * * * * * * * * * * * * */
+/* Code between the markers above adapted from Stack Overflow, 
+Question http://stackoverflow.com/questions/7648898/how-to-get-rid-of-blue-outer-border-when-clicking-on-a-form-input-field
+Asked by James (http://stackoverflow.com/users/903323/james) on 4 Oct 2011.  Used answer from 
+onreachable (http://stackoverflow.com/users/741981/onreachable) from 4 Oct 2011.
+Also referenced http://www.w3schools.com/css/css_border.asp for border shorthand formatting and
+http://tympanus.net/codrops/css_reference/focus/ on the :focus pseudo-class.
+All of the above accessed 26 April 2016. */
+
+
+.zip {
+  margin-top: 25px;
+}
+
+/* * * * * * * * * * * * * * * * */
+.zipinput {
+  width: 50%;
+}
+/* * * * * * * * * * * * * * * * */
+/*Code between the markers above was inspired by a web search results page that prominently featured two Stack Overflow
+posts: 
+  1) http://stackoverflow.com/questions/18721722/input-in-div-container-wont-stretch; Question by Drahcir 
+  (http://stackoverflow.com/users/820750/drahcir) on 10 Sept 13 and answered by various people pointing to width.
+  2) http://stackoverflow.com/questions/9910790/how-to-stretch-input-field-to-full-width; Question by Robert Hume 
+  (http://stackoverflow.com/users/550738/robert-hume) on 28 Mar 12, edited by badcat 
+  (http://stackoverflow.com/users/195347/badcat) on 4 Jan 2013, and the answer by Khan 
+  (http://stackoverflow.com/users/212566/khan) on 28 Mar 12.
+Licensed under Creative Commons Attribution-ShareAlike License, the latest version of which is available
+here: https://creativecommons.org/licenses/by-sa/4.0/.
+*/
+
+
+/* * * * * * * * * * * * * * * * */
+input[type="checkbox"],
+input[type="radio"] {
+  display: none;}
+
+input[type="checkbox"] + label span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: -1px 4px 0 0;
+  vertical-align: middle;
+  background: url(uncheckedbox.png) no-repeat;
+}
+
+input[type="checkbox"]:checked + label span {
+  background:url(checkedbox.png) no-repeat;
+}
+
+input[type="radio"] + label span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: -1px 4px 0 0;
+  vertical-align: middle;
+  background: url(uncheckeddot.png) no-repeat;
+}
+
+input[type="radio"]:checked + label span {
+  background: url(checkeddot.png) no-repeat;
+}
+/* * * * * * * * * * * * * * * * */
+/* Code styling inputs and label spans above adapted from Nick Dugger's (http://tutsplus.com/authors/nick-dugger) 
+tutorial at http://webdesign.tutsplus.com/articles/quick-tip-easy-css3-checkboxes-and-radio-buttons--webdesign-8953.
+Also referenced http://code.stephenmorley.org/html-and-css/styling-checkboxes-and-radio-buttons/.
+Accessed 26-27 April 2016.*/
+
+
+
+
+/* * * * * * * * * * * * * * * * */
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%
+}
+/* * * * * * * * * * * * * * * * */
+/* Code between the markers above from https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/Styling_HTML_forms
+Accessed 25 April 2015 */
+
+button {
+  background-color: #4ebbb5;
+  width: 100%;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 20px 30px;
+  border: none;
+/* * * * * * * * * * * * * * * * */
+  border-radius: 5px;
+/* * * * * * * * * * * * * * * * */
+  margin: 25px 0;
+}
+/* Border-radius code above from CSS-TRICKS
+https://css-tricks.com/almanac/properties/b/border-radius/
+Accessed April 26, 2016 */
+
+footer {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+footer p {
+  font-style: italic;
+  color: #bec2c5;
+}
+
+body {
+  margin: 0 15px;
+}
+
+/* --------- Media Queries ---------- */
+
+@media (min-width: 760px) {
+  .wrapper {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  legend {
+    padding: 50px 0 25px 0;
+  }
+
+  input {
+    width: 78%;
+  }
+
+  label {
+    width: 20%;
+  }
+
+  input,
+  label {
+    display: inline-block;
+  }
+
+  .jslabel {
+    width: 40%;
+  }
+
+/* * * * * * * * * * * * * * * * */
+  .dropdown {
+    width: 20%;
+    display: inline-block;
+  }
+
+  #state {
+    width: 78%;
+    display: inline-block;
+  }
+/* * * * * * * * * * * * * * * * */
+  /* Code between markers above influenced by c.bavota at http://bavotasan.com/2011/style-select-box-using-only-css/
+Accessed 26 April 2016. 
+And by Stack Overflow question http://stackoverflow.com/questions/9762462/adding-a-text-label-in-front-of-dropdown-list
+asked by thinkanotherone (http://stackoverflow.com/users/356899/thinkanotherone) on 18 March 2012.  Relevant answer
+from Joseph the Dreamer (http://stackoverflow.com/users/575527/joseph-the-dreamer) on 18 March 2012.
+Accessed 27 April 2016.*/
+
+  .zipinput {
+    width: 30%;
+  }
+
+  .selections {
+    display: block;
+    width: 100%;
+  }
+
+  .option {
+    margin: 5px 0;
+}
+
+
+}
+
+/* Other webpages referenced include:
+www.w3schools.com/html/html_form_input_types.asp
+www.w3schools.com/tags/att_input_type.asp
+www.w3schools.com/html/html_forms.asp
+https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/Styling_HTML_forms
+Accessed 25 April 2016
+http://learn.shayhowe.com/html-css/building-forms/
+Accessed April 22, April 24, 2016 and earlier. */
+
