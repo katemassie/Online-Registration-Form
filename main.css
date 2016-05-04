@@ -150,40 +150,16 @@ All on 26 April 2016. */
 
 
 
-/* Code for padding between the markers below adapted from W3schools.com
-http://www.w3schools.com/css/css_form.asp
-Accessed April 26, 2016 */
+
 input {
   margin-bottom: 25px;
-/* * * * * * * * * * * * * * * * */
   padding: 15px;
-/* * * * * * * * * * * * * * * * */
   background-color: #eff0f1;
   border: 0;
-/* * * * * * * * * * * * * * * * */
   border-radius: 5px;
-/* * * * * * * * * * * * * * * * */
-
-/* * * * * * * * * * * * * * * * */
   width: 100%;
-/* * * * * * * * * * * * * * * * */
 }
-/* Border-radius code above from CSS-TRICKS
-https://css-tricks.com/almanac/properties/b/border-radius/
-Accessed April 26, 2016 */
 
-
-/*Code for width between the markers above was inspired by a web search 
-results page that prominently featured two Stack Overflow posts: 
-  1) http://stackoverflow.com/questions/18721722/input-in-div-container-wont-stretch; Question by Drahcir 
-  (http://stackoverflow.com/users/820750/drahcir) on 10 Sept 13 and answered by various people pointing to width.
-  2) http://stackoverflow.com/questions/9910790/how-to-stretch-input-field-to-full-width; Question by Robert Hume 
-  (http://stackoverflow.com/users/550738/robert-hume) on 28 Mar 12, edited by badcat 
-  (http://stackoverflow.com/users/195347/badcat) on 4 Jan 2013, and the answer by Khan 
-  (http://stackoverflow.com/users/212566/khan) on 28 Mar 12.
-Licensed under Creative Commons Attribution-ShareAlike License, the latest version of which is available
-here: https://creativecommons.org/licenses/by-sa/4.0/.
-*/
 
 .heading {
   margin-top: 15px;
@@ -212,22 +188,9 @@ Accessed 26 April 2016, 3 May 2016.
 textarea {
   background-color: #eff0f1;
   border: 0;
-/* * * * * * * * * * * * * * * * */
   width: 100%;
-/* * * * * * * * * * * * * * * * */
-/* * * * * * * * * * * * * * * * */
   border-radius: 3px;
-/* * * * * * * * * * * * * * * * */
 }
-
-/* Width code above inspired by Stack Overflow.  
-Question 11 May 15 http://stackoverflow.com/questions/30164301/css-width100-textarea-for-comment-responsive
-by innovation (http://stackoverflow.com/users/4082764/innovation).
-Accessed April 26, 2016.
-*/
-/* Border-radius code above from CSS-TRICKS
-https://css-tricks.com/almanac/properties/b/border-radius/
-Accessed April 26, 2016 */
 
 
 label {
@@ -237,9 +200,7 @@ label {
 /* * * * * * * * * * * * * * * * */
 .selectstyle select {
   height: 50px;
-/* * * * * * * * * * * * * * * * */
   border-radius: 5px;
-/* * * * * * * * * * * * * * * * */
   background: transparent;
   color: #bec2c5;
   border: none;
@@ -255,9 +216,6 @@ label {
 Widths, heights, borders changed.  Padding, font-size, line-height omitted.
 Accessed 26 April 2016. 
 
-/* Border-radius code above from CSS-TRICKS
-https://css-tricks.com/almanac/properties/b/border-radius/
-Accessed April 26, 2016 */
 
 
 /* * * * * * * * * * * * * * * * */
@@ -278,25 +236,14 @@ All of the above accessed 26 April 2016. */
 
 
 .zip {
-  margin-top: 25px;
+  margin-top: 35px;
 }
 
-/* * * * * * * * * * * * * * * * */
+
 .zipinput {
   width: 50%;
 }
-/* * * * * * * * * * * * * * * * */
-/*Code between the markers above was inspired by a web search results page that prominently featured two Stack Overflow
-posts: 
-  1) http://stackoverflow.com/questions/18721722/input-in-div-container-wont-stretch; Question by Drahcir 
-  (http://stackoverflow.com/users/820750/drahcir) on 10 Sept 13 and answered by various people pointing to width.
-  2) http://stackoverflow.com/questions/9910790/how-to-stretch-input-field-to-full-width; Question by Robert Hume 
-  (http://stackoverflow.com/users/550738/robert-hume) on 28 Mar 12, edited by badcat 
-  (http://stackoverflow.com/users/195347/badcat) on 4 Jan 2013, and the answer by Khan 
-  (http://stackoverflow.com/users/212566/khan) on 28 Mar 12.
-Licensed under Creative Commons Attribution-ShareAlike License, the latest version of which is available
-here: https://creativecommons.org/licenses/by-sa/4.0/.
-*/
+
 
 
 /* * * * * * * * * * * * * * * * */
@@ -336,7 +283,9 @@ Also referenced http://code.stephenmorley.org/html-and-css/styling-checkboxes-an
 Accessed 26-27 April 2016.*/
 
 
-
+.selections {
+  margin-bottom: 25px;
+}
 
 /* * * * * * * * * * * * * * * * */
 button, input, select, textarea {
@@ -355,14 +304,10 @@ button {
   font-size: 20px;
   padding: 20px 30px;
   border: none;
-/* * * * * * * * * * * * * * * * */
   border-radius: 5px;
-/* * * * * * * * * * * * * * * * */
   margin: 25px 0;
 }
-/* Border-radius code above from CSS-TRICKS
-https://css-tricks.com/almanac/properties/b/border-radius/
-Accessed April 26, 2016 */
+
 
 footer {
   text-align: center;
@@ -424,6 +369,10 @@ And by Stack Overflow question http://stackoverflow.com/questions/9762462/adding
 asked by thinkanotherone (http://stackoverflow.com/users/356899/thinkanotherone) on 18 March 2012.  Relevant answer
 from Joseph the Dreamer (http://stackoverflow.com/users/575527/joseph-the-dreamer) on 18 March 2012.
 Accessed 27 April 2016.*/
+  
+  .zip {
+    margin-top: 45px;
+  }
 
   .zipinput {
     width: 30%;
@@ -441,12 +390,4 @@ Accessed 27 April 2016.*/
 
 }
 
-/* Other webpages referenced include:
-www.w3schools.com/html/html_form_input_types.asp
-www.w3schools.com/tags/att_input_type.asp
-www.w3schools.com/html/html_forms.asp
-https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/Styling_HTML_forms
-Accessed 25 April 2016
-http://learn.shayhowe.com/html-css/building-forms/
-Accessed April 22, April 24, 2016 and earlier. */
 

@@ -22,29 +22,24 @@
     <hr class="thick">
     <hr>
 
-    <form action="central.html" method="post">
+    <form action="index.html" method="post">
       <fieldset>
         <legend>Contact Information</legend>
 
-        <!-- - - - - - - - - - - - - - - - -->
         <label for="name">Full Name</label>
         <input type="text" id="name" name="user_name" placeholder="Required"><br>
         
         <label for="email">Email Address</label>
         <input type="email" id="email" name="user_email" placeholder="Required"><br>
-        <!-- - - - - - - - - - - - - - - - -->
+        
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="user_phone"><br>
 
-        <!-- Code between above markers referenced https://css-tricks.com/almanac/selectors/p/placeholder/
-         for placeholder format.  Accessed 26 April 2016. -->
+        <label for="address">Street Address</label>
+        <input type="text" id="address" name="user_address"><br>
 
-         <label for "phone">Phone Number</label>
-         <input type="tel" id="phone" name="user_phone"><br>
-
-         <label for="address">Street Address</label>
-         <input type="text" id="address" name="user_address"><br>
-
-         <label for "city">City</label>
-         <input type="text" id="city" name="user_city"><br>
+        <label for="city">City</label>
+        <input type="text" id="city" name="user_city"><br>
 
 
 
@@ -52,7 +47,7 @@
         Accessed 26 April 2016. -->
 
          <div class="selectstyle">
-           <label for "state" class="dropdown">State</label>
+           <label for="state" class="dropdown">State</label>
            <select id="state" name="user_state">
             <!-- - - - - - - - - - - - - - - - -->
             <option>Choose State</option>
@@ -111,7 +106,7 @@
             </select>
          </div>
 
-         <label for "zip" class="zip">Zip Code</label>
+         <label for="zip" class="zip">Zip Code</label>
          <input type="text" id="zip" name="user_zip" class="zipinput">
 
       </fieldset>
@@ -121,7 +116,7 @@
       <fieldset>
         <legend>Newsletter</legend>
 
-        <label class="selections">Select the newsletters you would like to receive</label>
+        <p class="selections">Select the newsletters you would like to receive</p>
 
         <input type="checkbox" id="html" name="newsletter" value="html"><label for="html" class="option"><span></span>HTML News</label><br>
 
@@ -130,7 +125,7 @@
         <input type="checkbox" id="javascript" name="newsletter" value="javascript"><label for="javascript" class="option jslabel"><span></span>Javascript News</label><br>
 
 
-        <label class="heading selections">Newsletter format</label>
+        <p class="heading selections">Newsletter format</p>
 
         <input type="radio" id="htmlformat" name="format" value="html"><label for="htmlformat" class="option"><span></span>HTML</label><br>
 
